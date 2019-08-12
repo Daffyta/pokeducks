@@ -1,27 +1,17 @@
 {
-  "name": "react-boilerplate",
+  "name": "pokeducks",
   "version": "0.1.0",
-  "description": "Boilerplate for React.js projects",
+  "description": "Ract pokeapi ducks",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --hot --inline",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/edisonchee/react-boilerplate.git"
-  },
-  "keywords": [
-    "react",
-    "boilerplate"
-  ],
-  "author": "Edison Chee",
+
+  "author": "Dafne",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/edisonchee/react-boilerplate/issues"
-  },
-  "homepage": "https://github.com/edisonchee/react-boilerplate#readme",
+
   "dependencies": {
     "connected-react-router": "^6.5.2",
     "history": "^4.9.0",
